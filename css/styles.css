@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+
+@font-face 
+{
+    font-family: 'Moon-Light';
+    src: url('../fonts/Moon-Light.eot');
+    src: url('../fonts/Moon-Light.woff2') format('woff2'), url('../fonts/Moon-Light.woff') format('woff'), url('../fonts/Moon-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{
+    background-color: #F8FCFA;
+    font-family: 'Moon-Light', sans-serif;
+    text-rendering: optimizeLegibility;
+    color:#f2f2f2;
+    overflow-x: hidden;
+} 
+
+a, a:hover, a:active, a:visited 
+{
+    color: #7b8b8e;
+    text-decoration: none !important;
+}
+
+.page-footer
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background-color: #282828;
+}
+
+.social-media
+{
+    text-align: center;
+}
+
+.social-media a
+{
+    padding: 5px;
+    color: #17DF89;
+}
+
+.header-text > h1, h3
+{
+    font-weight: 700 !important;
+    color: white;
+    margin:10px;
+    text-shadow: 2px 3px 5px #50575B;
+    width:1000px;
+    margin:0 auto 20px auto;
+    line-height: 0.9em;
+}
+
+.header-buttons 
+{
+    margin:10px;
+    width:1000px;
+    margin:0 auto 20px auto;
+}
+
+.header-title
+{
+    font-size: 6vw;
+}
+
+.header-sub-title
+{
+    font-size: 2.5vw;
+}
+
+.navbar-toggler
+{
+    margin-top:1.2rem;
+    border: none;
+}
+
+.navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar 
+{
+    padding: 0 13vw 0 12vw;
+    background-color: rgba(255,255,255,1);
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.navbar 
+{
+    font-size: 15px;
+    box-shadow: 0 2px 20px -5px #50575B;
+}
+
+.navbar-brand
+{
+    padding: 1.1rem 1.6rem 1.1rem 0;
+    text-align: center;
+    font-size:20px;
+    color: #17DF89;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-toggler 
+{
+    color: #59B591 !important;
+}
+
+#signup
+{
+    color:#59B591;
+}
+.navbar-nav a 
+{
+    transition: all 0.5s ease;
+    padding: 1.5rem;
+    margin:0 2px;
+}
+
+.btn-contact
+{
+    background-color: #F8FCFA;
+    text-shadow: none;
+}
+
+.btn-signup
+{
+    background-color: #F4195B;
+    color: white;
+    text-shadow: none;
+}
+
+.btn-signup:hover, .btn-signup:active, .btn-signup:visited
+{
+    color: #F8FCFA;
+}
+
+.navbar-nav a:hover 
+{
+    background-color: #F8FCFA;
+    color: #40484a;
+}
+
+#green
+{
+    background: url(../images/overlay.png) #5fcf80;
+    background-image: url(../images/overlay.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(95, 207, 128);
+    height:550px;
+    position: fixed;
+    top:0;
+    display:block;position:absolute;top:0;width:100%;z-index:0;
+}
+
+#grey
+{
+    background-color: #F8FCFA;
+}
+
+.section 
+{
+    padding: 50px 50px 30px 50px;
+    min-height:100vh;
+    position: static;
+}
+
+.about
+{
+    padding: 50px 20px 70px 20px;
+    min-height:60vh;
+    position: static;
+    background-color: #5fcf80;
+
+}
+
+.about h3
+{
+    width:auto;
+}
+
+.about-card
+{
+    background-color: white;
+    margin: 0 auto;
+    padding:40px;
+    box-shadow: 0 20px 50px -20px #50575B;
+    color: #7b8b8e;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 45px;
+   
+}
+
+.image-gallery 
+{
+    padding: 0;
+    margin:0;
+    min-height:50vh;
+    position: static;
+}
+
+
+.terminal_menu 
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #525252;
+    border-radius: 8px 8px 0 0;
+    padding-left: 10px;
+    height: 30px;
+    background: #999999;
+    box-shadow: 2px 3px 20px #50575B;
+}
+
+.terminal_menu header .button 
+{
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.terminal_menu header .button.green 
+{
+    background: #40C96B;
+}
+
+.terminal_menu header .button.yellow 
+{
+    background: #F2EA10;
+}
+
+.terminal_menu header .button.red 
+{
+    background: #EA5648;
+}
+
+.terminal 
+{
+    background-color: #282828;
+    box-sizing: border-box;
+    max-width: 1000px;
+    height:400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #E8F1F2;
+    font-size: 0.9em;
+    font-family: 'Source Code Pro', monospace;
+    white-space: initial;
+    box-shadow: 2px 3px 20px #50575B;
+}
+
+.terminal #sudo::before
+{ 
+    content: "Stetson$ ";
+    color:#48E279;
+}
+
+.image-holder {
+  display:flex;
+  }
+
+.image-holder img {
+  width:100%;
+  flex:1;
+  }
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@media (max-width: 576px)
+{
+    .terminal
+    {
+        height:450px;
+    }
+    .header-title
+    {
+        padding-top:10px;
+        font-size: 10vw;
+    }
+    .header-sub-title
+    {
+        font-size: 5vw;  
+    }
+    .image-holder 
+    {
+        display:block;
+    }
+}
+
+.page-footer
+{
+        margin-top: 0 !important;
+}
+
+.panel-body {
+   max-height: 20vh;
+   overflow: auto;
+ }
+ 
+ .panel-body ol {
+   counter-reset: item;
+   padding-left: 0;
+ }
+ 
+ .panel-body li {
+   display: block
+   overflow:scroll;
+ }
+ 
+ .panel-body li:before {
+   width: 1%;
+   min-width: 25px;
+   padding-right: 10px;
+   margin-right: 10px;
+   text-align: right;
+   white-space: nowrap;
+   color: rgba(0, 0, 0, 0.3);
+   content: counter(item);
+   counter-increment: item;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+   display: inline-block;
+   border: solid #eee;
+   border-width: 0 4px 0 0;
+ }
+
