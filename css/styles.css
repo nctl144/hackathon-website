@@ -352,6 +352,10 @@ a, a:hover, a:active, a:visited
     {
         display:block;
     }
+    h2
+    {
+        font-size:20px;
+    }
 }
 
 .page-footer
