@@ -181,10 +181,28 @@ a, a:hover, a:active, a:visited
 .about
 {
     padding: 50px 20px 70px 20px;
-    min-height:60vh;
+    min-height:100vh;
     position: static;
     background-color: #5fcf80;
 
+}
+
+.about img
+{
+    padding:15px;
+}
+
+.faq
+{
+    background-color: #758ECD;
+}
+
+.sponsors
+{
+    background-color: #EBEBD3;
+    padding-left:100px;
+    padding-right:100px;
+    min-height: 20vh;
 }
 
 .about h3
