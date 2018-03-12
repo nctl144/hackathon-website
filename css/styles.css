@@ -351,7 +351,7 @@ h1 {
     .header-title
     {
         padding-top:10px;
-        font-size: 10vw;
+        font-size: 3.5vw;
     }
     .header-sub-title
     {
@@ -364,6 +364,10 @@ h1 {
     h2
     {
         font-size:20px;
+    }
+    .navbar-brand
+    {
+        margin-left:10vw;
     }
 }
 
