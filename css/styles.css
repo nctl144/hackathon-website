@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
 
-@font-face 
+@font-face
 {
     font-family: 'Moon-Light';
     src: url('../fonts/Moon-Light.eot');
@@ -13,16 +13,16 @@
     font-style: normal;
 }
 
-body 
+body
 {
     background-color: #F8FCFA;
     font-family: 'Moon-Light', sans-serif;
     text-rendering: optimizeLegibility;
     color:#f2f2f2;
     overflow-x: hidden;
-} 
+}
 
-a, a:hover, a:active, a:visited 
+a, a:hover, a:active, a:visited
 {
     color: #7b8b8e;
     text-decoration: none !important;
@@ -57,7 +57,7 @@ a, a:hover, a:active, a:visited
     line-height: 0.9em;
 }
 
-.header-buttons 
+.header-buttons
 {
     margin:10px;
     width:1000px;
@@ -66,7 +66,16 @@ a, a:hover, a:active, a:visited
 
 .header-title
 {
-    font-size: 6vw;
+    font-size: 3vw;
+}
+
+.header-hackathon
+{
+    font-size: 5vw;
+}
+
+h1 {
+  line-height: 10;
 }
 
 .header-sub-title
@@ -80,11 +89,11 @@ a, a:hover, a:active, a:visited
     border: none;
 }
 
-.navbar-toggler-icon { 
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
-.navbar 
+.navbar
 {
     padding: 0 13vw 0 12vw;
     background-color: rgba(255,255,255,1);
@@ -92,7 +101,7 @@ a, a:hover, a:active, a:visited
     font-weight: 400;
 }
 
-.navbar 
+.navbar
 {
     font-size: 15px;
     box-shadow: 0 2px 20px -5px #50575B;
@@ -107,7 +116,7 @@ a, a:hover, a:active, a:visited
 }
 
 .navbar-light .navbar-brand,
-.navbar-light .navbar-toggler 
+.navbar-light .navbar-toggler
 {
     color: #59B591 !important;
 }
@@ -116,7 +125,7 @@ a, a:hover, a:active, a:visited
 {
     color:#59B591;
 }
-.navbar-nav a 
+.navbar-nav a
 {
     transition: all 0.5s ease;
     padding: 1.5rem;
@@ -141,7 +150,7 @@ a, a:hover, a:active, a:visited
     color: #F8FCFA;
 }
 
-.navbar-nav a:hover 
+.navbar-nav a:hover
 {
     background-color: #F8FCFA;
     color: #40484a;
@@ -171,7 +180,7 @@ a, a:hover, a:active, a:visited
     background-color: #F8FCFA;
 }
 
-.section 
+.section
 {
     padding: 50px 50px 30px 50px;
     min-height:100vh;
@@ -219,10 +228,10 @@ a, a:hover, a:active, a:visited
     color: #7b8b8e;
     font-family: 'Cabin', sans-serif;
     margin-bottom: 45px;
-   
+
 }
 
-.image-gallery 
+.image-gallery
 {
     padding: 0;
     margin:0;
@@ -231,7 +240,7 @@ a, a:hover, a:active, a:visited
 }
 
 
-.terminal_menu 
+.terminal_menu
 {
     max-width: 1000px;
     margin: 0 auto;
@@ -243,7 +252,7 @@ a, a:hover, a:active, a:visited
     box-shadow: 2px 3px 20px #50575B;
 }
 
-.terminal_menu header .button 
+.terminal_menu header .button
 {
     width: 12px;
     height: 12px;
@@ -252,22 +261,22 @@ a, a:hover, a:active, a:visited
     border-radius: 8px;
 }
 
-.terminal_menu header .button.green 
+.terminal_menu header .button.green
 {
     background: #40C96B;
 }
 
-.terminal_menu header .button.yellow 
+.terminal_menu header .button.yellow
 {
     background: #F2EA10;
 }
 
-.terminal_menu header .button.red 
+.terminal_menu header .button.red
 {
     background: #EA5648;
 }
 
-.terminal 
+.terminal
 {
     background-color: #282828;
     box-sizing: border-box;
@@ -285,7 +294,7 @@ a, a:hover, a:active, a:visited
 }
 
 .terminal #sudo::before
-{ 
+{
     content: "Stetson$ ";
     color:#48E279;
 }
@@ -346,9 +355,9 @@ a, a:hover, a:active, a:visited
     }
     .header-sub-title
     {
-        font-size: 5vw;  
+        font-size: 5vw;
     }
-    .image-holder 
+    .image-holder
     {
         display:block;
     }
@@ -367,17 +376,17 @@ a, a:hover, a:active, a:visited
    max-height: 20vh;
    overflow: auto;
  }
- 
+
  .panel-body ol {
    counter-reset: item;
    padding-left: 0;
  }
- 
+
  .panel-body li {
    display: block
    overflow:scroll;
  }
- 
+
  .panel-body li:before {
    width: 1%;
    min-width: 25px;
@@ -397,4 +406,3 @@ a, a:hover, a:active, a:visited
    border: solid #eee;
    border-width: 0 4px 0 0;
  }
-
