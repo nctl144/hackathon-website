@@ -9,7 +9,6 @@
     font-family: 'Moon-Light';
     src: url('../fonts/Moon-Light.eot');
     src: url('../fonts/Moon-Light.woff2') format('woff2'), url('../fonts/Moon-Light.woff') format('woff'), url('../fonts/Moon-Light.ttf') format('truetype');
-    font-weight: normal;
     font-style: normal;
 }
 
@@ -31,7 +30,7 @@ a, a:hover, a:active, a:visited
 .page-footer
 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     background-color: #282828;
 }
 
@@ -48,30 +47,49 @@ a, a:hover, a:active, a:visited
 
 .header-text > h1, h3
 {
-    font-weight: 700 !important;
     color: white;
     margin:10px;
-    text-shadow: 2px 3px 5px #50575B;
+    text-shadow: 2px 3px 5px #000000;
     width:1000px;
     margin:0 auto 20px auto;
-    line-height: 0.9em;
+
+
 }
 
 .header-buttons
 {
-    margin:10px;
+    margin:20px;
     width:1000px;
     margin:0 auto 20px auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.hatterhacks-title
+{
+  font-size: 8vw;
+  text-align: center;
+  line-height: 2.0em;
+  letter-spacing: 35px;
+  font-weight: 500;
 }
 
 .header-title
 {
     font-size: 3vw;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 20px;
+    font-weight: 100;
 }
 
 .header-hackathon
 {
-    font-size: 5vw;
+    font-size: 2.5vw;
+    text-align: center;
+    line-height: 1.9em;
+    letter-spacing: 15px;
+    font-weight: 100;
 }
 
 h1 {
@@ -80,7 +98,11 @@ h1 {
 
 .header-sub-title
 {
-    font-size: 2.5vw;
+    font-size: 1.7vw;
+    text-align: center;
+    line-height: 1.9em;
+    letter-spacing: 30px;
+    font-weight: 100;
 }
 
 .navbar-toggler
@@ -118,12 +140,13 @@ h1 {
 .navbar-light .navbar-brand,
 .navbar-light .navbar-toggler
 {
-    color: #59B591 !important;
+    color: #35b729 !important;
 }
 
 #signup
 {
-    color:#59B591;
+    color:#35b729;
+
 }
 .navbar-nav a
 {
@@ -158,19 +181,17 @@ h1 {
 
 #green
 {
-    background: url(../images/overlay.png) #5fcf80;
-    background-image: url(../images/overlay.png);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
+    background-color: #35b729;
+    background: url(../images/backdropCables.png);
+    background-size: 100%;
+    background-image: url(../images/backdropCables.png);
+    background-position-x: 0px;
+    background-position-y: 35px;
+    background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(95, 207, 128);
-    height:550px;
-    position: fixed;
+    height: 650px;
+    position: initial;
     top:0;
     display:block;position:absolute;top:0;width:100%;z-index:0;
 }
@@ -192,7 +213,7 @@ h1 {
     padding: 50px 20px 70px 20px;
     min-height:100vh;
     position: static;
-    background-color: #5fcf80;
+    background-color: #35b729;
 
 }
 
@@ -342,15 +363,15 @@ h1 {
     }
 }
 
-@media (max-width: 576px)
+@media (max-width: 550px)
 {
     .terminal
     {
-        height:410px;
+        height:430px;
     }
     .header-title
     {
-        padding-top:10px;
+        padding-top:30px;
         font-size: 3.5vw;
     }
     .header-sub-title
