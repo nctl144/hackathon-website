@@ -23,7 +23,7 @@ body
 
 a, a:hover, a:active, a:visited
 {
-    color: white;
+    color: #35b729;
     text-decoration: none !important;
 }
 
@@ -31,7 +31,7 @@ a, a:hover, a:active, a:visited
 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
-    background-color: #282828;
+    background-color: black;
 }
 
 .social-media
@@ -42,7 +42,7 @@ a, a:hover, a:active, a:visited
 .social-media a
 {
     padding: 5px;
-    color: #17DF89;
+    color: #35b729;
 }
 
 .header-text > h1, h3
@@ -225,7 +225,7 @@ h1 {
 
 .faq
 {
-    background-color: #758ECD;
+    background-color: black;
 }
 
 .sponsors
@@ -249,6 +249,20 @@ h1 {
     box-shadow: 0 20px 50px -20px #50575B;
     color: #7b8b8e;
     font-family: 'Cabin', sans-serif;
+    margin-bottom: 45px;
+
+}
+
+
+.about-card1
+{
+    background-color: white;
+    margin: 0 auto;
+    padding:40px;
+    box-shadow: 0 20px 50px -20px #50575B;
+    color: #7b8b8e;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5vw;
     margin-bottom: 45px;
 
 }
