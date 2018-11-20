@@ -335,7 +335,8 @@ h1 {
     color:#35b729;
 }
 .myframe {
-    width='100';
+    width='600';
+    lenght='240';
 }
 .image-holder {
   display:flex;
