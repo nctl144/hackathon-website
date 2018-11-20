@@ -334,7 +334,9 @@ h1 {
     content: "Stetson$ ";
     color:#35b729;
 }
-
+.myframe {
+    width='100';
+}
 .image-holder {
   display:flex;
   }
