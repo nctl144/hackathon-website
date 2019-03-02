@@ -50,7 +50,7 @@ a, a:hover, a:active, a:visited
     color: white;
     margin:10px;
     text-shadow: 2px 3px 5px #000000;
-    width:1000px;
+    /*width:1000px;*/
     margin:0 auto 20px auto;
 
 
@@ -59,7 +59,7 @@ a, a:hover, a:active, a:visited
 .header-buttons
 {
     margin:20px;
-    width:1000px;
+    /*width:1000px;*/
     margin:0 auto 20px auto;
     text-align: center;
     line-height: 1.5em;
@@ -67,7 +67,7 @@ a, a:hover, a:active, a:visited
 
 .hatterhacks-title
 {
-  font-size: 8vw;
+  /*font-size: 42pt;*/
   text-align: center;
   line-height: 2.0em;
   letter-spacing: 35px;
@@ -76,7 +76,7 @@ a, a:hover, a:active, a:visited
 
 .header-title
 {
-    font-size: 3vw;
+    /*font-size: 32pt;*/
     text-align: center;
     line-height: 1.2em;
     letter-spacing: 20px;
@@ -85,7 +85,7 @@ a, a:hover, a:active, a:visited
 
 .header-hackathon
 {
-    font-size: 2.5vw;
+    /*font-size: 25pt;*/
     text-align: center;
     line-height: 1.9em;
     letter-spacing: 15px;
@@ -98,7 +98,7 @@ h1 {
 
 .header-sub-title
 {
-    font-size: 1.7vw;
+    /*font-size: 1.7vw;*/
     text-align: center;
     line-height: 1.9em;
     letter-spacing: 30px;
@@ -194,7 +194,10 @@ h1 {
     height: 620px;
     position: initial;
     top:0;
-    display:block;position:absolute;top:0;width:100%;z-index:0;
+    display:block;
+    position:absolute;
+    width:100%;
+    z-index:-1;
 }
 
 #grey
@@ -262,7 +265,6 @@ h1 {
     box-shadow: 0 20px 50px -20px #50575B;
     color: #7b8b8e;
     font-family: 'Cabin', sans-serif;
-    font-size: 1.5vw;
     margin-bottom: 45px;
 
 }
@@ -273,6 +275,10 @@ h1 {
     margin:0;
     min-height:50vh;
     position: static;
+}
+
+.terminal-items {
+    padding-top: 25vh;
 }
 
 

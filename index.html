@@ -26,79 +26,78 @@
         </span>
       </div>
     </nav>
-    <div id="green"></div>
     <section class="container-fluid">
       <div class="row">
+        <div id="green"></div>
         <div class="col-xs-12 col-lg-12 section ">
           <div class="header-text">
             <h1 class="hatterhacks-title">HATTERHACKS <br/></h1>
-            <h1 class="header-title">2019 Greater Central Florida Tech Faire + Hackathon<br/></h1>
+            <h1 class="header-title">2019 Greater Central Florida</h1>
+            <h1 class="header-title">Tech Faire + Hackathon</h1>
             <h3 class="header-sub-title">APRIL 5-7, 2019</h3>
+            <br/>
             <div class="header-buttons">
               <a class="btn btn-signup" style="margin-left:5px;" href="https://goo.gl/forms/49w3I04W7fJHlYbi2" target="_blank" role="button">Sign Up</a>
               <!-- <a class="btn btn-contact" style="margin-left:5px;" href="https://goo.gl/forms/6htv7HOfxvxEVPFT2" target="_blank" role="button">Apply for Travel Grant</a> -->
             </div>
           </div>
-          <br />
+          <br>
+          <div class="terminal-items">
+              <div class=terminal_menu>
+                  <header>
+                      <div class="button red"></div>
+                      <div class="button yellow"></div>
+                      <div class="button green"></div>
+                  </header>
+              </div>
+              <div class="terminal">
+                  <span id="typed"></span>
+                  <script>
+                      var typed = new Typed('#typed', {
+                            strings: ['<p id="sudo">sudo npm install -g hackathon^500 </p><p id="sudo">npm run hackathon^500  </p> `Starting hackathon`^500.^300.^300.^300 <br><iframe src="images/logo.html" style="border:none;overflow:hidden;margin:0 auto;margin-top:30px;display:block;" height="300" width="560"></iframe>^200<br>`<p class="text-center" style="margin-top:-70px;">Ready. Set. Hack.</p>`'],
+                            typeSpeed: 55,
+                            showCursor: false,
+                        });
+                        // Select all links with hashes
+                        $('a[href*="#"]')
+                        // Remove links that don't actually link to anything
+                            .not('[href="#"]')
+                            .not('[href="#0"]')
+                            .click(function(event) {
+                                // On-page links
+                                if (
+                                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                                    location.hostname == this.hostname
+                                ) {
+                                    // Figure out element to scroll to
+                                    var target = $(this.hash);
+                                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                    // Does a scroll target exist?
+                                    if (target.length) {
+                                        // Only prevent default if animation is actually gonna happen
+                                        event.preventDefault();
+                                        $('html, body').animate({
+                                                scrollTop: target.offset().top - 60
+                                            }, 1000, function() {
+                                                // Callback after animation
+                                                // Must change focus!
+                                                var $target = $(target);
+                                                $target.focus();
+                                                if ($target.is(":focus")) { // Checking if the target was focused
+                                                    return false;
+                                                } else {
+                                                    $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                                    $target.focus(); // Set focus again
+                                                };
+                                            });
+                                        }
+                                    }
+                                });
+                </script>
+              </div>
+          </div> <!-- End class terminal-items -->
           </div> <!-- End class col... section -->
         </div> <!-- End class row -->
-        <span id="terminal"></span>
-        <div class="row">
-            <div class="col-xs-12 col-lg-12 section">
-          <div class=terminal_menu>
-            <header>
-              <div class="button red"></div>
-              <div class="button yellow"></div>
-              <div class="button green"></div>
-            </header>
-          </div>
-          <div class="terminal">
-            <span id="typed"></span>
-            <script>
-              var typed = new Typed('#typed', {
-                  strings: ['<p id="sudo">sudo npm install -g hackathon^500 </p><p id="sudo">npm run hackathon^500  </p> `Starting hackathon`^500.^300.^300.^300 <br><iframe src="images/logo.html" style="border:none;overflow:hidden;margin:0 auto;margin-top:30px;display:block;" height="300" width="560"></iframe>^200<br>`<p class="text-center" style="margin-top:-70px;">Ready. Set. Hack.</p>`'],
-                  typeSpeed: 55,
-                  showCursor: false,
-              });
-              // Select all links with hashes
-              $('a[href*="#"]')
-                  // Remove links that don't actually link to anything
-                  .not('[href="#"]')
-                  .not('[href="#0"]')
-                  .click(function(event) {
-                      // On-page links
-                      if (
-                          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-                          location.hostname == this.hostname
-                      ) {
-                          // Figure out element to scroll to
-                          var target = $(this.hash);
-                          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                          // Does a scroll target exist?
-                          if (target.length) {
-                              // Only prevent default if animation is actually gonna happen
-                              event.preventDefault();
-                              $('html, body').animate({
-                                  scrollTop: target.offset().top - 60
-                              }, 1000, function() {
-                                  // Callback after animation
-                                  // Must change focus!
-                                  var $target = $(target);
-                                  $target.focus();
-                                  if ($target.is(":focus")) { // Checking if the target was focused
-                                      return false;
-                                  } else {
-                                      $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                      $target.focus(); // Set focus again
-                                  };
-                              });
-                          }
-                      }
-                  });
-            </script>
-          </div>
-        </div>
-      </div>
       <!-- <div class="row">
         <div class="col-xs-12 col-lg-12 image-gallery" id="grey">
           <div class="image-holder">
