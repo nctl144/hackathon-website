@@ -202,7 +202,7 @@ h1 {
 
 .btn-signup:hover, .btn-signup:active, .btn-signup:visited
 {
-    color: white !important; //white
+    color: white !important; /*white*/
 }
 
 .navbar-nav a:hover
@@ -310,7 +310,7 @@ h1 {
 }
 
 .terminal-items {
-    padding-top: 25vh;
+    padding-top: 0vh;
 }
 
 
@@ -355,7 +355,7 @@ h1 {
     background-color: white;
     box-sizing: border-box;
     max-width: 1000px;
-    height:500px;
+    height: 500px;
     margin: 0 auto;
     padding: 20px;
     border-bottom-left-radius: 5px;
