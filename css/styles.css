@@ -46,15 +46,37 @@ a, a:hover, a:active, a:visited
     color: #35b729;
 }
 
-.header-text > h1, h3
+.header-text > h1
 {
     color: white;
-    margin:10px;
+    margin: 10px;
     text-shadow: 2px 3px 5px #000000;
     /*width:1000px;*/
     margin:0 auto 20px auto;
+    font-size: 80px;
 
+}
 
+.header-text > h2
+{
+    color: white;
+    margin: 10px;
+    text-shadow: 2px 3px 5px #000000;
+    /*width:1000px;*/
+    margin:0 auto 20px auto;
+    font-size: 40px;
+    
+}
+
+.header-text > h3
+{
+    color: white;
+    margin: 10px;
+    text-shadow: 2px 3px 5px #000000;
+    /*width:1000px;*/
+    margin:0 auto 20px auto;
+    font-size: 25px;
+    
 }
 
 .header-buttons
@@ -95,6 +117,7 @@ a, a:hover, a:active, a:visited
 
 h1 {
   line-height: 10;
+  font-weight: 100;
 }
 
 .header-sub-title
@@ -199,7 +222,7 @@ h1 {
     background-attachment: fixed;
     background-origin: initial;
     background-clip: initial;
-    height: 620px;
+    height: 700px;
     position: initial;
     top:0;
     display:block;
@@ -250,6 +273,7 @@ h1 {
 .about h3
 {
     width:auto;
+    
 }
 
 .about-card
