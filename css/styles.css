@@ -21,6 +21,27 @@ body
     overflow-x: hidden;
 }
 
+h4 {
+    font-size: 45.0px;
+}
+
+th {
+    font-size: 25.0px;
+    padding: 15px;
+    background-color: #35b729;
+    color: white;
+ }
+
+td {
+    font-size: 15.0px;
+    font-family: 'Cabin', sans-serif;
+ }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
 a, a:hover, a:active, a:visited
 {
     color: #35b729;
@@ -257,6 +278,46 @@ h1 {
     padding:15px;
 }
 
+.page-footer
+{
+        margin-top: 0 !important;
+}
+
+.panel-body {
+   max-height: 20vh;
+   overflow: auto;
+ }
+
+ .panel-body ol {
+   counter-reset: item;
+   padding-left: 0;
+ }
+
+ .panel-body li {
+   display: block
+   overflow:scroll;
+ }
+
+ .panel-body li:before {
+   width: 1%;
+   min-width: 25px;
+   padding-right: 10px;
+   margin-right: 10px;
+   text-align: right;
+   white-space: nowrap;
+   color: rgba(0, 0, 0, 0.3);
+   content: counter(item);
+   counter-increment: item;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+   display: inline-block;
+   border: solid #eee;
+   border-width: 0 4px 0 0;
+ }
+
 .faq
 {
     background-color: black;
@@ -443,65 +504,4 @@ h1 {
     {
         margin-left:10vw;
     }
-}
-
-.page-footer
-{
-        margin-top: 0 !important;
-}
-
-.panel-body {
-   max-height: 20vh;
-   overflow: auto;
- }
-
- .panel-body ol {
-   counter-reset: item;
-   padding-left: 0;
- }
-
- .panel-body li {
-   display: block
-   overflow:scroll;
- }
-
- .panel-body li:before {
-   width: 1%;
-   min-width: 25px;
-   padding-right: 10px;
-   margin-right: 10px;
-   text-align: right;
-   white-space: nowrap;
-   color: rgba(0, 0, 0, 0.3);
-   content: counter(item);
-   counter-increment: item;
-   cursor: pointer;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   user-select: none;
-   display: inline-block;
-   border: solid #eee;
-   border-width: 0 4px 0 0;
- }
-
-h4 {
-    font-size: 45.0px;
-}
-
-th {
-    font-size: 25.0px;
-    padding: 15px;
-    background-color: #35b729;
-    color: white;
- }
-
-td {
-    font-size: 15.0px;
-    font-family: 'Cabin', sans-serif;
- }
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-    color: black;
 }
