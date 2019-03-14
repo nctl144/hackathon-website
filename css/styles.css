@@ -65,7 +65,7 @@ a, a:hover, a:active, a:visited
     /*width:1000px;*/
     margin:0 auto 20px auto;
     font-size: 40px;
-    
+
 }
 
 .header-text > h3
@@ -76,7 +76,7 @@ a, a:hover, a:active, a:visited
     /*width:1000px;*/
     margin:0 auto 20px auto;
     font-size: 25px;
-    
+
 }
 
 .header-buttons
@@ -273,7 +273,7 @@ h1 {
 .about h3
 {
     width:auto;
-    
+
 }
 
 .about-card
@@ -504,6 +504,4 @@ td {
 tr:nth-child(even) {
     background-color: #f2f2f2;
     color: black;
-}
-
 }
