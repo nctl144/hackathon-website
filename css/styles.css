@@ -21,6 +21,27 @@ body
     overflow-x: hidden;
 }
 
+h4 {
+    font-size: 45.0px;
+}
+
+th {
+    font-size: 25.0px;
+    padding: 15px;
+    background-color: #35b729;
+    color: white;
+ }
+
+td {
+    font-size: 15.0px;
+    font-family: 'Cabin', sans-serif;
+ }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
 a, a:hover, a:active, a:visited
 {
     color: #35b729;
@@ -65,7 +86,7 @@ a, a:hover, a:active, a:visited
     /*width:1000px;*/
     margin:0 auto 20px auto;
     font-size: 40px;
-    
+
 }
 
 .header-text > h3
@@ -76,7 +97,7 @@ a, a:hover, a:active, a:visited
     /*width:1000px;*/
     margin:0 auto 20px auto;
     font-size: 25px;
-    
+
 }
 
 .header-buttons
@@ -236,7 +257,7 @@ h1 {
     background-color: #F8FCFA;
 }
 
-.section
+.main-title-section
 {
     padding: 50px 50px 30px 50px;
     min-height:100vh;
@@ -257,6 +278,46 @@ h1 {
     padding:15px;
 }
 
+.page-footer
+{
+        margin-top: 0 !important;
+}
+
+.panel-body {
+   max-height: 20vh;
+   overflow: auto;
+ }
+
+ .panel-body ol {
+   counter-reset: item;
+   padding-left: 0;
+ }
+
+ .panel-body li {
+   display: block
+   overflow:scroll;
+ }
+
+ .panel-body li:before {
+   width: 1%;
+   min-width: 25px;
+   padding-right: 10px;
+   margin-right: 10px;
+   text-align: right;
+   white-space: nowrap;
+   color: rgba(0, 0, 0, 0.3);
+   content: counter(item);
+   counter-increment: item;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+   display: inline-block;
+   border: solid #eee;
+   border-width: 0 4px 0 0;
+ }
+
 .faq
 {
     background-color: black;
@@ -273,7 +334,7 @@ h1 {
 .about h3
 {
     width:auto;
-    
+
 }
 
 .about-card
@@ -416,6 +477,41 @@ h1 {
     }
 }
 
+@media (max-width: 1024px) {
+  .main-title-section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  .hatterhacks-title {
+    font-size: 50px !important;
+  }
+
+  .header-title {
+    font-size: 30px !important;
+  }
+
+  .header-sub-title {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hatterhacks-title {
+    font-size: 40px !important;
+    letter-spacing: 15px;
+  }
+
+  .header-title {
+    font-size: 20px !important;
+    letter-spacing: 15px;
+  }
+
+  .header-sub-title {
+    letter-spacing: 15px;
+    font-size: 15px !important;
+  }
+}
+
 @media (max-width: 550px)
 {
     .terminal
@@ -445,65 +541,9 @@ h1 {
     }
 }
 
-.page-footer
-{
-        margin-top: 0 !important;
-}
-
-.panel-body {
-   max-height: 20vh;
-   overflow: auto;
- }
-
- .panel-body ol {
-   counter-reset: item;
-   padding-left: 0;
- }
-
- .panel-body li {
-   display: block
-   overflow:scroll;
- }
-
- .panel-body li:before {
-   width: 1%;
-   min-width: 25px;
-   padding-right: 10px;
-   margin-right: 10px;
-   text-align: right;
-   white-space: nowrap;
-   color: rgba(0, 0, 0, 0.3);
-   content: counter(item);
-   counter-increment: item;
-   cursor: pointer;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   user-select: none;
-   display: inline-block;
-   border: solid #eee;
-   border-width: 0 4px 0 0;
- }
-
-h4 {
-    font-size: 45.0px;
-}
-
-th {
-    font-size: 25.0px;
-    padding: 15px;
-    background-color: #35b729;
-    color: white;
- }
-
-td {
-    font-size: 15.0px;
-    font-family: 'Cabin', sans-serif;
- }
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-    color: black;
-}
-
+@media (max-width: 420px) {
+  .hatterhacks-title {
+    font-size: 30px !important;
+    letter-spacing: 10px;
+  }
 }
