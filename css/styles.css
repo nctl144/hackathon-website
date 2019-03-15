@@ -503,6 +503,7 @@ h1 {
 
   .header-title {
     font-size: 20px !important;
+    letter-spacing: 15px;
   }
 
   .header-sub-title {
@@ -543,6 +544,6 @@ h1 {
 @media (max-width: 420px) {
   .hatterhacks-title {
     font-size: 30px !important;
-    letter-spacing: 13px;
+    letter-spacing: 10px;
   }
 }
