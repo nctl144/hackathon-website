@@ -257,7 +257,7 @@ h1 {
     background-color: #F8FCFA;
 }
 
-.section
+.main-title-section
 {
     padding: 50px 50px 30px 50px;
     min-height:100vh;
@@ -477,6 +477,40 @@ h1 {
     }
 }
 
+@media (max-width: 1024px) {
+  .main-title-section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  .hatterhacks-title {
+    font-size: 50px !important;
+  }
+
+  .header-title {
+    font-size: 30px !important;
+  }
+
+  .header-sub-title {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hatterhacks-title {
+    font-size: 40px !important;
+    letter-spacing: 15px;
+  }
+
+  .header-title {
+    font-size: 20px !important;
+  }
+
+  .header-sub-title {
+    letter-spacing: 15px;
+    font-size: 15px !important;
+  }
+}
+
 @media (max-width: 550px)
 {
     .terminal
@@ -504,4 +538,11 @@ h1 {
     {
         margin-left:10vw;
     }
+}
+
+@media (max-width: 420px) {
+  .hatterhacks-title {
+    font-size: 30px !important;
+    letter-spacing: 13px;
+  }
 }
